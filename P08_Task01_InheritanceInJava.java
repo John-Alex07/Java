@@ -14,6 +14,7 @@ public class P08_Task01_InheritanceInJava
 		Two two = new Two(1);
 		D obj = new D(1);
 		obj.methodFour();
+		System.out.println(two.a);
 	}
 
 }

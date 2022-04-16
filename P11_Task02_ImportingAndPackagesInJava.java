@@ -11,7 +11,7 @@ public class P11_Task02_ImportingAndPackagesInJava {
 		out.println(sqrt(4));
 		System.out.println(pow(2,2));
 		System.out.println(abs(6.3));
-		Info.main(null);
+		Info_Unit_1.main(null);
 	}
 	
 

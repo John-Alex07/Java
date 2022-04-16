@@ -8,7 +8,7 @@ abstract class Bike
 		System.out.println("Inside Bike Constructor : "+a+"\n");
 	}
 	
-	abstract void run();
+	abstract void run(); //0-100% 
 	
 	void display()
 	{
