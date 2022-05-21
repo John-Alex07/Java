@@ -29,6 +29,7 @@ public class Q5 {
 		}
 		
 		Employee obj = new Employee(rec);
+		obj.display();
 		sc.close();
 	}
 
@@ -74,6 +75,13 @@ class Employee
 	    		break;
 	    	}
 	    }
+	}
+	public void display()
+	{
+		System.out.println("DEPARTMENT A : "+sal_A);
+		System.out.println("DEPARTMENT B : "+sal_B);
+		System.out.println("DEPARTMENT C : "+sal_C);
+		System.out.println("DEPARTMENT D : "+sal_D);
 	}
 }
 	    		

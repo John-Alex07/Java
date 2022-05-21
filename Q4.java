@@ -5,8 +5,6 @@ public class Q4 {
 	{
 		ClassThree obj = new ClassThree(0);
 		ClassThree obj1 = new ClassThree();
-		
-		
 	}
 
 }
