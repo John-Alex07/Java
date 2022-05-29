@@ -23,8 +23,8 @@ public class FileHandling {
 
 		ABCDEF obj = new ABCDEF();
 		obj.takeInputFromAFile();
-		// obj.saveOutputIntoAFile();
-		// obj.saveLogOfProgram();
+		 obj.saveOutputIntoAFile();
+		obj.saveLogOfProgram();
 
 	}
 
@@ -36,7 +36,7 @@ class ABCDEF {
 
 	void takeInputFromAFile() throws IOException {
 
-		String path = "/Users/akashchauhan/git/FirstJavaBasedProject/JavaBasicProject/src/Unit_03/Input.txt";
+		String path = "E:\\Java\\4th Sem\\src\\Unit_3\\Input.txt";
 		File file = new File(path);
 
 		BufferedReader br = new BufferedReader(new FileReader(file));
@@ -69,9 +69,8 @@ class ABCDEF {
 		FileWriter myObj = null;
 
 		try {
-			myObj = new FileWriter("output.txt");
+			myObj = new FileWriter("E:\\Java\\4th Sem\\src\\Unit_3\\Outut.txt");
 		} catch (IOException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 
@@ -95,7 +94,7 @@ class ABCDEF {
 		FileWriter myObj = null;
 
 		try {
-			myObj = new FileWriter("log.txt",true);
+			myObj = new FileWriter("E:\\Java\\4th Sem\\src\\Unit_3\\log.txt",true);
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
